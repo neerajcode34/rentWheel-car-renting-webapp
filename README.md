@@ -1,28 +1,57 @@
-# Car-Rental-System
-Car rental system using Django FrameWork.<br /> <br />
-User can login and rent a car and can download the bill generated.
+Here's a basic `README.md` file for your project:
 
-## About Django : 
-Django is an MVT web framework that is used to build web applications.Django has an in-built administration interface which lets you handle your models, user/ group permissions and to manage users. With model interface in place, there is no need for a separate database administration program for all but advanced database functions.Django can check if an entered password is correct by running it through the hash function and comparing the output to the stored hash value.Internally, while it provides choices for almost any functionality you might want (e.g. several popular databases, templating engines, etc.), it can also be extended to use other components if needed.
+```markdown
+# RentWheels Booking System
 
-## Tech Stack Used:
-* HTML
-* CSS
-* Python 
-* SQLITE3 (Default database of django)
+## Description
+RentWheels Booking System is a web application that allows users to book vehicles for rent. Users can input their booking details, choose a vehicle, specify pickup and return locations, and confirm their booking.
 
-## Project Demo : 
+## Features
+- User-friendly interface for inputting booking details.
+- Selection of available vehicles with different rental options.
+- Flexible date and location selection for pickup and return.
+- Confirmation of booking with a total bill calculation.
+- Option to print/download booking receipt.
 
+## Technologies Used
+- Frontend: HTML, CSS, JavaScript, Bootstrap
+- Backend: Django (Python)
+- Database: SQLite (for development), PostgreSQL (for production)
+- Deployment: Heroku
 
+## Usage
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   ```
 
-https://user-images.githubusercontent.com/89544124/180066688-a8265b4c-d72c-46b7-985c-c1eb60456f33.mp4
+2. Navigate to the project directory:
+   ```bash
+   cd rentwheels_booking_system
+   ```
 
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-## Installation : 
+4. Run migrations:
+   ```bash
+   python manage.py migrate
+   ```
+
+5. Start the development server:
+   ```bash
+   python manage.py runserver
+   ```
+
+6. Access the application in your web browser at `http://localhost:8000`.
+
+## Contributing
+Contributions are welcome! Please fork the repository and submit a pull request with your changes.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 ```
-* Clone the repository
-* Create Superuser (python manage.py createsuperuser) for accessing the admin portal
-* Type python manage.py runserver and run the program
-```
-## Author :
-* Christy Biju (https://github.com/ChristyBiju)
+
+Feel free to modify and expand upon it according to your project's specific details and requirements.
