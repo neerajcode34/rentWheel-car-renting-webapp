@@ -25,6 +25,6 @@ urlpatterns = [
     path('', TemplateView.as_view(template_name='index.html'), name='home')
 ] + static(settings.MEDIA_URL, document_root = settings.MEDIA_ROOT)
 
-admin.site.site_header = "CarZest Admin"
-admin.site.site_title = "CarZest Admin Portal"
-admin.site.index_title = "Welcome to CarZest Portal"
+admin.site.site_header = "RentWheels Admin"
+admin.site.site_title = "RentWheels Admin Portal"
+admin.site.index_title = "Welcome to RentWheels Portal"

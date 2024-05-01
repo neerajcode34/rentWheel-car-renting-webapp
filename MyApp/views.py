@@ -1,5 +1,3 @@
-# from email.mime import message
-# from pyexpat import model
 from django.http import Http404, HttpResponse
 from django.shortcuts import render,redirect
 from django.contrib.auth.models import User
